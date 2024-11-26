@@ -4,8 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-  console.log(`Hola desde ${import.meta.env.VITE_MY_SECRET_KEY} holis`)
+  const [count, setCount] = useState(0);
+  const holi = process.env.DATABASE_CONNECTION_STRING;
+  console.log(`Hola desde ${holi} holis`)
   return (
     <>
       <div>
