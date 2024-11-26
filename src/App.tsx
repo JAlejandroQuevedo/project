@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0);
   const holi = import.meta.env.VITE_API_KEY;
-  console.log(`Hola desde ${holi} holis`)
+  console.log(`Hola desde ${holi} holis como andas`)
   return (
     <>
       <div>
