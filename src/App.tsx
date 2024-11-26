@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  console.log(`Hola desde ${process.env.MY_SECRET_KEY} holis`)
+  console.log(`Hola desde ${import.meta.env.MY_SECRET_KEY} holis`)
   return (
     <>
       <div>
