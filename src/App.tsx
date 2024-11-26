@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  console.log(`Hola desde ${process.env.MY_SECRET_KEY}`)
+  console.log(`Hola desde ${process.env.MY_SECRET_KEY} holis`)
   return (
     <>
       <div>
